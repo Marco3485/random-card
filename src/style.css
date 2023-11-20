@@ -1,1 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.container {
+  height: 550px;
+  width: 400px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.pintaSuperior {
+  font-size: 120px;
+  margin-top: 0px;
+}
+.numero {
+  font-size: 250px;
+  line-height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.pintaInferior {
+  font-size: 120px;
+
+  display: flex;
+  justify-content: end;
+}
+body {
+  background-color: green;
+}
